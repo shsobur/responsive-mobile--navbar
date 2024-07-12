@@ -1,0 +1,50 @@
+.main_baner_parent_container {
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+.baner_content_conrainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.postimg.cc/LXcBb4s7/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.baner_title_container {
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.baner_title_container h2 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.baner_title_container p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #cbcbcb;
+  padding: 20px 260px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+  .baner_title_container h2 {
+    font-size: 2.8rem;
+  }
+
+  .baner_title_container p {
+    font-size: 1rem;
+    padding: 20px 10px;
+  }
+}

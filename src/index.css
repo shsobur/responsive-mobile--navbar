@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_nav_parent_container {
+  max-width: 1536px;
+  margin: auto;
+}
+
+.main_baner_parent_container {
+  max-width: 1536px;
+  margin: auto;
+}
